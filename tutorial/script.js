@@ -67,7 +67,18 @@ peerConnection.addEventListener("signalingstatechange", (event) => {
 
         // ice Candidate
         
+peerConnection.addEventListener('icecandidate',e=>{
+    console.log(`Ice Candidate found`,e);
 
+
+    if(e.candidate){
+
+    }
+
+
+
+
+})
 
 
 
